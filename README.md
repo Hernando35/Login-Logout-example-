@@ -1,5 +1,5 @@
 # Login-Logout-example
-Suite Test example using encrypted password. This automated test uses the linkedin url as an example
+Suite Test example using encrypted password. This automated test uses the linkedin url as an example.
 
 # Explanation
 This suite test is a example for using encrypted passwords during login. 
