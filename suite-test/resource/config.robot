@@ -12,10 +12,10 @@ ${user}                      your email address e.g. myemail@gmail.co.uk
 
 *** Keywords ***
 Testing Fixed Web Elements
-   [Arguments]                                          ${text}             ${xpath} 
-   Mouse Over                                           ${xpath} 
-   SeleniumLibrary.Wait Until Element Contains          ${xpath}            ${text}         timeout=5s
-   Click Element                                        ${xpath} 
+   [Arguments]                                      ${text}             ${xpath} 
+   Mouse Over                                       ${xpath} 
+   Wait Until Element Contains                      ${xpath}            ${text}         timeout=5s
+   Click Element                                    ${xpath} 
 
 
 
