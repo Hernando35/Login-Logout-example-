@@ -15,7 +15,7 @@ ${me_title}                  Ik          #It can be modified by another text fro
 ${logout_text}               Afmelden    #It can be modified by another text from other web element
 ${home_element}              xpath://li[contains(@class, 'global-nav__primary-item')]//span[contains(., '${element_title}')]
 ${me_element}                xpath://li[contains(@class, 'global-nav__primary-item')]//span[contains(., '${me_title}')]
-${logout_url}                xpath://div[contains(@class, 'artdeco-dropdown__content-inner')]//ul[contains(., 'Afmelden')]
+${logout_url}                xpath://div[contains(@class, 'artdeco-dropdown__content-inner')]//ul[contains(., '${logout_text}')]
 
 
 *** Test Cases ***
